@@ -2,6 +2,7 @@ package go_koans
 
 type coolNumber int
 
+// NJ: Function def
 func (cn coolNumber) multiplyByTwo() int {
 	return int(cn) * 2
 }
